@@ -54,6 +54,14 @@ console.log (nota2)
 console.log (nota3)
 console.log ((nota1+nota2+nota3)/3)
 
+//Ejercicio 7
+
+var laprincesita = 97;
+
+console.log("Horas: " + Math.trunc(laprincesita/60))
+console.log("Minutos: " + laprincesita%60)
+
+
 
 
 
