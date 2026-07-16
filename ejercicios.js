@@ -45,6 +45,16 @@ console.log (x**y)
 
 //Ejercicio 6
 
+var nota1 = 85;
+var nota2 = 77;
+var nota3 = 91;
+
+console.log (nota1)
+console.log (nota2)
+console.log (nota3)
+console.log ((nota1+nota2+nota3)/3)
+
+
 
 
 
