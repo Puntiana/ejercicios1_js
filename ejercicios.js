@@ -57,9 +57,18 @@ console.log ((nota1+nota2+nota3)/3)
 //Ejercicio 7
 
 var laprincesita = 97;
+console.log("Horas: " + Math.trunc(laprincesita/60));
+console.log("Minutos: " + laprincesita%60);
 
-console.log("Horas: " + Math.trunc(laprincesita/60))
-console.log("Minutos: " + laprincesita%60)
+//Ejercicio 8
+
+let salario = 5900;
+
+console.log = ("Salario mensual: Q." + salario)
+console.log = ("Salario anual: Q." + (salario*14))
+
+
+
 
 
 
