@@ -24,7 +24,7 @@ console.log ("*******");
 console.log ("********");
 
 
-//parte 1
+//parte 2
 
 //Ejercicio 4
 
@@ -64,18 +64,34 @@ console.log("Minutos: " + laprincesita%60);
 
 let salario = 5900;
 
-console.log = ("Salario mensual: Q." + salario);
-console.log = ("Salario anual: Q." + (salario*14));
+console.log("Salario mensual: Q." + salario);
+console.log("Salario anual: Q." + (salario*14));
+
+//parte 2
 
 //Ejercicio 9
 
-let puntos = 100;
+var puntos = 100;
 
-console.log = (puntos += 50);
-console.log = (puntos -= 20);
-console.log = (puntos *= 2);
-console.log = (puntos /= 5);
-console.log = (puntos %= 6);
+console.log(puntos += 50);
+console.log(puntos -= 20);
+console.log(puntos *= 2);
+console.log(puntos /= 5);
+console.log(puntos %= 6);
+
+//Ejercicio 10
+
+let ahorro = 1200;
+
+console.log(ahorro)
+
+//Ejercicio 11
+
+var x = 25;
+var y = 17;
+
+console.log(x>y)
+
 
 
 
