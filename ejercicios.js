@@ -64,11 +64,18 @@ console.log("Minutos: " + laprincesita%60);
 
 let salario = 5900;
 
-console.log = ("Salario mensual: Q." + salario)
-console.log = ("Salario anual: Q." + (salario*14))
+console.log = ("Salario mensual: Q." + salario);
+console.log = ("Salario anual: Q." + (salario*14));
 
+//Ejercicio 9
 
+let puntos = 100;
 
+console.log = (puntos += 50);
+console.log = (puntos -= 20);
+console.log = (puntos *= 2);
+console.log = (puntos /= 5);
+console.log = (puntos %= 6);
 
 
 
