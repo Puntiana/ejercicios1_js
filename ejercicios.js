@@ -67,7 +67,7 @@ let salario = 5900;
 console.log("Salario mensual: Q." + salario);
 console.log("Salario anual: Q." + (salario*14));
 
-//parte 2
+//parte 3
 
 //Ejercicio 9
 
@@ -85,12 +85,58 @@ let ahorro = 1200;
 
 console.log(ahorro)
 
+console.log(ahorro += 50);
+console.log(ahorro -= 20);
+console.log(ahorro *= 2);
+
+//parte 4
+
+
 //Ejercicio 11
 
 var x = 25;
 var y = 17;
 
 console.log(x>y)
+console.log(x<y)
+console.log(x>=y)
+console.log(x<=y)
+console.log(x==y)
+console.log(x===y)
+console.log(x!=y)
+console.log(x!==y)
+
+//Ejercicio 12
+
+let edad = 20;
+let edadMinima = 18;
+
+console.log(edadMinima>edad)
+console.log(edad<edadMinima)
+console.log(edadMinima>=edad)
+console.log(edadMinima<=edad)
+console.log(edadMinima==edad)
+console.log(edadMinima===edad)
+console.log(edadMinimax!=edad)
+console.log(edadMinima!==edad)
+
+//Ejercicio 13
+
+let numero = 50;
+
+console.log(numero>20)
+console.log(numero<67)
+console.log(numero>=30)
+console.log(numero<=27)
+console.log(numero==31)
+
+//parte 4
+
+//Ejercicio 14
+
+
+
+
 
 
 
