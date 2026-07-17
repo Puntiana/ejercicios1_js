@@ -191,6 +191,16 @@ Cantidad: ${cantidad}
 Total: Q.${precio*cantidad}.00`
 )
 
+//Ejercicio 22
+
+var nombre3 = "Daniel";
+var estatura = 170;
+var edad2 = 42;
+
+console.log(`Mi nombre es ${nombre3}, mido ${estatura}cm de alto y tengo ${edad2} años.`)
+
+//Ejercicio 23
+
 
 
 
