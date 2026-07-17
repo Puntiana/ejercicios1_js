@@ -117,7 +117,7 @@ console.log(edadMinima>=edad)
 console.log(edadMinima<=edad)
 console.log(edadMinima==edad)
 console.log(edadMinima===edad)
-console.log(edadMinimax!=edad)
+console.log(edadMinima!=edad)
 console.log(edadMinima!==edad)
 
 //Ejercicio 13
@@ -134,9 +134,18 @@ console.log(numero==31)
 
 //Ejercicio 14
 
+var nombre = "Adriana";
+var apellido = "Punti";
+var ciudad = "Ciudad de Guatemala";
+
+console.log("Nombre: " + nombre);
+console.log("Apellido: " + apellido);
+console.log("Ciudad: " + ciudad);
 
 
+//Ejercicio 15
 
+console.log("Hola, mi nombre es " + nombre + " " + apellido + " y vivo en " + ciudad + ".")
 
 
 
