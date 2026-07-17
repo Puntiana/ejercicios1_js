@@ -149,11 +149,7 @@ console.log("Hola, mi nombre es " + nombre + " " + apellido + " y vivo en " + ci
 
 //Ejercicio 16 // son backtags no comillas simples
 
-const nombre1 = "Adriana";
-const apellido1 = "Punti";
-const ciudad1 = "Guatemala";
-
-console.log(`Hola mi nombre es ${nombre1} ${apellido1} y vivo en ${ciudad1}.`);
+console.log(`Hola, mi nombre es ${nombre} ${apellido} y vivo en ${ciudad}.`);
 
 //Ejercicio 17
 
@@ -164,14 +160,39 @@ console.log("El número de carateres en la frase anterior es: " + frase.length);
 
 //Ejercicio 18
 
-var frase2 = "Tengo clases de programación de lunes a viernes."
+var frase2 = "Tengo clases de programación de lunes a viernes.";
 
 console.log(frase2.toUpperCase());
 console.log(frase2.toLowerCase());
+console.log("El número de carateres en la frase anterior es: " + frase2.length);
 
 
 //Ejercicio 19
-git 
+console.log("El primer caracter de la frase anterior es: " + frase2[0]);
+console.log("El último caracter de la frase anterior es: " + frase2[47]);
+
+//Ejercicio 20
+
+var frase3 = "Me gusta comer helado los días viernes.";
+
+console.log(frase3.slice(15, 21));
+
+//Parte 6. Combinando números y cadenas
+
+//Ejercicio 21
+
+var producto = "Galletas Oreo";
+var precio = 31;
+var cantidad = 6;
+
+console.log(`Producto:${producto}
+Precio: Q.${precio}.00
+Cantidad: ${cantidad}
+Total: Q.${precio*cantidad}.00`
+)
+
+
+
 
 
 
