@@ -1,4 +1,4 @@
-//parte 1
+//parte 1 Impresiones en consola
 
 //Ejercicio 1
 
@@ -24,8 +24,8 @@ console.log ("*******");
 console.log ("********");
 
 
-//parte 2
-
+//parte 2 Variables y números
+ 
 //Ejercicio 4
 
 var x = 20;
@@ -54,20 +54,20 @@ console.log (nota2)
 console.log (nota3)
 console.log ((nota1+nota2+nota3)/3)
 
-//Ejercicio 7
+//Ejercicio 7 
 
 var laprincesita = 97;
 console.log("Horas: " + Math.trunc(laprincesita/60));
 console.log("Minutos: " + laprincesita%60);
 
-//Ejercicio 8
+//Ejercicio 8  
 
 let salario = 5900;
 
 console.log("Salario mensual: Q." + salario);
 console.log("Salario anual: Q." + (salario*14));
 
-//parte 3
+//parte 3 Operadores de asignación
 
 //Ejercicio 9
 
@@ -89,7 +89,7 @@ console.log(ahorro += 50);
 console.log(ahorro -= 20);
 console.log(ahorro *= 2);
 
-//parte 4
+//parte 4 Operadores de comparación
 
 
 //Ejercicio 11
@@ -130,7 +130,7 @@ console.log(numero>=30)
 console.log(numero<=27)
 console.log(numero==31)
 
-//parte 4
+//parte 5 (STRINGS)
 
 //Ejercicio 14
 
@@ -147,7 +147,35 @@ console.log("Ciudad: " + ciudad);
 
 console.log("Hola, mi nombre es " + nombre + " " + apellido + " y vivo en " + ciudad + ".")
 
-//Ejercicio 16
+//Ejercicio 16 // son backtags no comillas simples
+
+const nombre1 = "Adriana";
+const apellido1 = "Punti";
+const ciudad1 = "Guatemala";
+
+console.log(`Hola mi nombre es ${nombre1} ${apellido1} y vivo en ${ciudad1}.`);
+
+//Ejercicio 17
+
+var frase = "Tengo una gata atigrada, una naranja y una carey.";
+
+console.log(frase);
+console.log("El número de carateres en la frase anterior es: " + frase.length);
+
+//Ejercicio 18
+
+var frase2 = "Tengo clases de programación de lunes a viernes."
+
+console.log(frase2.toUpperCase());
+console.log(frase2.toLowerCase());
+
+
+//Ejercicio 19
+git 
+
+
+
+
 
 
 
