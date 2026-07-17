@@ -147,6 +147,8 @@ console.log("Ciudad: " + ciudad);
 
 console.log("Hola, mi nombre es " + nombre + " " + apellido + " y vivo en " + ciudad + ".")
 
+//Ejercicio 16
+
 
 
 
