@@ -225,3 +225,98 @@ while (i <= 20) {
 //Parte 4. Funciones
 //Ejercicio 21
 
+
+function saludar() {
+    console.log("Hola, bienvenido a JavaScript.");
+}
+saludar();
+
+//Ejercicio 22
+
+function mostrarNombre(nombre) {
+    console.log(nombre);
+};
+
+mostrarNombre ("Adriana Punti");
+
+//Ejercicio 23
+
+function sumar (a, b){
+    return a + b;
+}
+console.log(sumar(9,10));
+
+//Ejercicio 24
+
+function esPar(numeropi){
+    if (numeropi % 2 === 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(esPar(8));
+console.log(esPar(7));
+
+//Ejercicio 25
+
+function calcularPromedio(n1, n2, n3){
+    return (n1+n2+n3)/3
+}
+
+console.log(calcularPromedio(10, 15, 17))
+
+//Ejercicio 26
+
+function mayor(a, b){
+    if (a > b){
+        return console.log("El número mayor es " + a + ".");
+    } else {
+        return console.log("El número mayor es " + b + ".");
+    }
+}
+console.log(mayor(7, 6));
+
+//Ejercicio 27
+
+function calcularAreaRectangulo(base, altura){
+    return (base * altura)/2
+};
+
+console.log(calcularAreaRectangulo(15, 4));
+
+//Ejercicio 28 El ejericio dice que el 19% pero lo hice on el 12% que es el de Guatemala
+
+function calcularIVA(valor){
+    return valor*0.12
+};
+console.log(calcularIVA(100));
+
+//Ejercicio 29
+
+function convertirCelsiusAFahrenheit(celsius){
+    return (celsius*1.8 + 32)
+}
+
+console.log(convertirCelsiusAFahrenheit(18))
+
+//Ejercicio 30
+
+function esMayorDeEdad(edad){
+    if (edad >= 18){
+        return console.log("Mayor de edad")
+    } else {
+        return console.log("Menor de edad")
+    }
+}
+
+console.log(esMayorDeEdad(21))
+
+//Parte 5. Integración
+//Ejercicio 31
+
+
+
+
+
