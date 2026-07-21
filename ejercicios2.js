@@ -212,3 +212,16 @@ while (i <= 20) {
     console.log(i);
     i++;
 }
+
+//Ejercicio 18
+// Imprimir únicamente los números pares del 2 al 50 con while
+
+//let i = 2;
+//while (i <= 50) {
+//    console.log(i);
+//    i += 2;
+//}
+
+//Parte 4. Funciones
+//Ejercicio 21
+
