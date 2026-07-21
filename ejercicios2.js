@@ -275,7 +275,7 @@ function mayor(a, b){
     } else {
         return console.log("El número mayor es " + b + ".");
     }
-}
+};
 console.log(mayor(7, 6));
 
 //Ejercicio 27
@@ -296,25 +296,137 @@ console.log(calcularIVA(100));
 //Ejercicio 29
 
 function convertirCelsiusAFahrenheit(celsius){
-    return (celsius*1.8 + 32)
+    return (celsius*1.8 + 32);
 }
 
-console.log(convertirCelsiusAFahrenheit(18))
+console.log(convertirCelsiusAFahrenheit(18));
 
 //Ejercicio 30
 
 function esMayorDeEdad(edad){
     if (edad >= 18){
-        return console.log("Mayor de edad")
+        return console.log("Mayor de edad");
     } else {
-        return console.log("Menor de edad")
+        return console.log("Menor de edad");
     }
 }
 
-console.log(esMayorDeEdad(21))
+console.log(esMayorDeEdad(21));
 
 //Parte 5. Integración
 //Ejercicio 31
+
+function valorNota (nota){
+    if (nota >= 4.5) {
+    return console.log("Excelente");
+} else { 
+    if (nota >= 4 && nota <= 4.49){
+        return console.log("Bueno");
+    } else { if (nota >= 3 && nota <= 3.99){
+         return console.log("Aceptable");
+        } else { if ( nota <= 3){
+            return console.log("Reprobado");
+                }
+            }
+        }
+    }
+};
+
+console.log(valorNota(4.5));
+
+//Ejercicio 32
+function tablaMultiplicar(numero) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(numero + " x " + i + " = " + (numero * i));
+    }
+};
+
+console.log(tablaMultiplicar(4));
+
+//Ejercicio 33
+
+function numeroFactorial(numero){
+    let resultado = 1;
+
+    for (let i = 1; i <= numero; i++) {
+        resultado *= i;
+    }
+
+    return resultado;
+}
+
+console.log(numeroFactorial(5));
+
+//Ejercicio 33
+
+function calculadora(a, b, operador) {
+    switch (operador) {
+        case "+":
+            return a + b;
+        case "-":
+            return a - b;
+        case "*":
+            return a * b;
+        case "/":
+            return a / b;
+        default:
+            return "Operador no válido";
+    }
+}
+
+console.log(calculadora(10, 5, "+"));
+
+//Ejercicio 35
+function sumaNumeros(numero) {
+    let suma = 0;
+
+    for (let i = 1; i <= numero; i++) {
+        suma += i;
+    }
+
+    return suma;
+}
+console.log(sumaNumeros(10));
+
+//Ejercicio 35
+
+function imprimirPatron() {
+    for (let i = 1; i <= 5; i++) {
+        let patron = "";
+
+        for (let j = 1; j <= i; j++) {
+            patron += "*";
+        }
+
+        console.log(patron);
+    }
+}
+
+console.log(imprimirPatron());
+
+//Ejercicio 36
+
+
+//Ejercicio 37
+
+// Crear la función
+function esPrimo(numero) {
+    if (numero <= 1) {
+        return false;
+    }
+
+    for (let i = 2; i < numero; i++) {
+        if (numero % i === 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+console.log(esPrimo(7));
+
+
 
 
 
