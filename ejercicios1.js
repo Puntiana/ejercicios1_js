@@ -201,16 +201,95 @@ console.log(`Mi nombre es ${nombre3}, mido ${estatura}cm de alto y tengo ${edad2
 
 //Ejercicio 23
 
+var producto1 = "Manzana";
+var pmanzana = 15;
+var producto2 = "Frijol";
+var pfrijol = 8;
+var producto3 = "Jugo de Uva";
+var pjugo = 28;
+
+console.log(`=========================
+      FACTURA
+=========================
+${producto1} ----- Q.${pmanzana}.00 
+${producto2} ----- Q.${pfrijol}.00
+${producto3} --- Q.${pjugo}.00
+Total ------------ Q.${pjugo+pmanzana+pfrijol}.00
+=========================
+`);
+
+//Ejercicio 24
+
+var mate = 80.5;
+var progra = 83.2;
+var ingles = 72.5;
+
+console.log(`=========================
+      BOLETÍN DE NOTAS
+=========================
+Matématicas ----- ${mate}
+Programación ----- ${progra}
+Inglés ----- ${ingles}
+Promedio ----- ${Math.trunc((mate+progra+ingles)/3)}
+=========================
+`);
+
+
+//Ejercicio 25
+
+var profesion = "Traductora";
+var email = "adriana.punti@gmail.com"
+var tel = "(502)5588-2739"
+
+console.log(`=========================
+      MI PERFIL
+=========================
+Nombre: ${nombre} ${apellido}
+Edad: ${edad}
+Profesión: ${profesion}
+Ciudad: ${ciudad}
+Correo:${email}
+Teléfono:${tel}
+=========================
+`);
 
 
 
 
 
+//RETO FINAL
+
+// se estan usando variables de ejercicios anteriores
+
+var superm = "Uniprecio"
+var fecha = "19/07/2026"
+
+var producto4 = "Pan";
+var ppan = 23;
+var producto5 = "Huevos";
+var phuevos =32;
 
 
 
 
 
+console.log(`=========================================
+          SUPERMERCADO ${superm}
+=========================================
+
+Cliente: ${nombre} ${apellido}
+Fecha: ${fecha}
+
+${producto1}     x2     Q.${pmanzana}.00
+${producto2}     x3     Q.${pfrijol}.00
+${producto3}     x1     Q.${pjugo}.00
+${producto4}     x1     Q.${ppan}.00
+${producto5}     x2     Q.${phuevos}.00
+
+-----------------------------------------
+TOTAL: Q.${pmanzana*2+pfrijol*3+pjugo*1+ppan*1+phuevos*2}.00
+=========================================
+`);
 
 
 
