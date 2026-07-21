@@ -136,3 +136,79 @@ switch (mes) {
     default:
         console.log("Número de mes no válido");
 }
+
+//Parte 2. ciclo for
+
+//Ejercicio 9
+// Imprimir los números del 1 al 10
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+//Ejercicio 10
+//Imprima los números del 10 al 1.
+
+// Imprimir los números del 10 al 1 
+
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+//Ejercicio 11
+// Imprimir únicamente los números pares del 1 al 100
+
+for (let i = 2; i <= 100; i += 2) {
+    console.log(i);
+}
+
+//Ejercicio 12
+
+// Imprimir únicamente los múltiplos de 5 entre 1 y 100
+
+for (let i = 5; i <= 100; i += 5) {
+    console.log(i);
+}
+
+//Ejercicio 13
+// Calcular la suma de los números del 1 al 100
+
+let suma = 0;
+
+for (let i = 1; i <= 100; i++) {
+    suma += i;
+}
+
+console.log("La suma es: " + suma);
+
+//Ejercicio 13
+// Imprimir la tabla de multiplicar
+
+let num5 = 7;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(num5 + " x " + i + " = " + (num5 * i));
+}
+
+//Ejercicio 15
+// Calcule el factorial de un número.
+//se usara el mismo numero del ejericio anterior
+
+let factorial = 1;
+
+// Calcular el factorial
+for (let i = 1; i <= num5; i++) {
+    factorial *= i;
+}
+
+console.log("El factorial de " + num5 + " es: " + factorial);
+
+//Parte 3. While y Do While
+//Ejercicio 17
+// Imprimir los números del 1 al 20 utilizando while
+
+let i = 1;
+
+while (i <= 20) {
+    console.log(i);
+    i++;
+}
