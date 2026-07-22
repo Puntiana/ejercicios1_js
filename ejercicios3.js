@@ -77,23 +77,23 @@ estudiantes.forEach(function(estudiante) {
  let nombre = estudiante.nombre
  let programa = estudiante.programa
 
- console.log(nombre, programa)
+ console.log(nombre, programa);
 
  //Ejercicio 9
 
- let marca = computador.marca
- let procesador = computador.especificaciones.procesador
- let memoria = computador.especificaciones.memoriaRAM
+ let marca = computador.marca;
+ let procesador = computador.especificaciones.procesador;
+ let memoria = computador.especificaciones.memoriaRAM;
 
- console.log (marca, procesador, memoria)
+ console.log (marca, procesador, memoria);
 
 //Ejercicio 10
 
 const numeros = [10,20,30,40,50];
 
-console.log(numeros[0])
-console.log(numeros[1])
-console.log(numeros[4])
+console.log(numeros[0]);
+console.log(numeros[1]);
+console.log(numeros[4]);
 
 //Ejercicio 11
 
@@ -111,8 +111,31 @@ console.log("b =", b);
 
 let ciudades = ["CDMX","Guatemala","Bogotá", "Paris","Berlin" ];
 
-console.log (ciudades)
+console.log (ciudades);
 
 //Ejercicio 13
+
+console.log (ciudades[0]);
+console.log (ciudades[4]);
+console.log (ciudades.length);
+
+//Ejercicio 14
+
+ciudades.push("Xela","Praga");
+console.log(ciudades);
+
+//Ejercicio 15
+
+ciudades.unshift("Udaipur");
+console.log(ciudades);
+
+//Ejercicio 16
+
+let borrarelemento1 = ciudades.shift();
+let borrarelementofinal = ciudades.pop();
+console.log(ciudades);
+
+
+
 
 
