@@ -56,7 +56,6 @@ console.log("Memoria RAM:", computador.especificaciones.memoriaRAM);
 console.log("Almacenamiento:", computador.especificaciones.almacenamiento);
 
 //Ejercicio 7
-// Crear el arreglo de estudiantes
 let estudiantes = [
     { nombre: "Juan", edad: 20, promedio: 85 },
     { nombre: "Manuel", edad: 21, promedio: 90 },
@@ -65,10 +64,78 @@ let estudiantes = [
     { nombre: "Luisa", edad: 20, promedio: 95 }
 ];
 
-// Imprimir todos los estudiantes
-for (let i = 0; i < estudiantes.length; i++) {
-    console.log("Nombre:", estudiantes[i].nombre);
-    console.log("Edad:", estudiantes[i].edad);
-    console.log("Promedio:", estudiantes[i].promedio);
+estudiantes.forEach(function(estudiante) {
+    console.log("Nombre:", estudiante.nombre);
+    console.log("Edad:", estudiante.edad);
+    console.log("Promedio:", estudiante.promedio);
     console.log("----------------------");
-}
+});
+
+//Parte 2 Desestructuración
+
+//Ejercicio 8
+ let nombre = estudiante.nombre
+ let programa = estudiante.programa
+
+ console.log(nombre, programa);
+
+ //Ejercicio 9
+
+ let marca = computador.marca;
+ let procesador = computador.especificaciones.procesador;
+ let memoria = computador.especificaciones.memoriaRAM;
+
+ console.log (marca, procesador, memoria);
+
+//Ejercicio 10
+
+const numeros = [10,20,30,40,50];
+
+console.log(numeros[0]);
+console.log(numeros[1]);
+console.log(numeros[4]);
+
+//Ejercicio 11
+
+let a = 10;
+let b = 20;
+
+[a, b] = [b, a];
+
+console.log("a =", a);
+console.log("b =", b);
+
+//Parte 3. Arreglos
+
+//Ejercicio 12
+
+let ciudades = ["CDMX","Guatemala","Bogotá", "Paris","Berlin" ];
+
+console.log (ciudades);
+
+//Ejercicio 13
+
+console.log (ciudades[0]);
+console.log (ciudades[4]);
+console.log (ciudades.length);
+
+//Ejercicio 14
+
+ciudades.push("Xela","Praga");
+console.log(ciudades);
+
+//Ejercicio 15
+
+ciudades.unshift("Udaipur");
+console.log(ciudades);
+
+//Ejercicio 16
+
+let borrarelemento1 = ciudades.shift();
+let borrarelementofinal = ciudades.pop();
+console.log(ciudades);
+
+
+
+
+
